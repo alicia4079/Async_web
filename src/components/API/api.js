@@ -3,7 +3,7 @@ import './api.css'
 
 createSearchForm()
 
-const accessKey = 'Y53l6Q-EDTRbmqKqmsmEHMNfHuEbLSAhYytOvr7fC9U'
+const accessKey = 'JVh9wUgfKtOR9WHyku53ep2Ed-pvNdnT42144x-ROjU'
 const endPoint = 'https://api.unsplash.com/search/photos'
 
 export const getImages = async () => {
