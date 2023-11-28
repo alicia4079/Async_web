@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+.imgIcon {
+  max-width: 25px;
+  cursor: pointer;
+}
+
+.imgIcon:hover {
+  border-radius: 50px;
+  box-shadow: 0 0 15px 12px rgb(41, 165, 72);
+}

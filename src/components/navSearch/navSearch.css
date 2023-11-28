@@ -1,0 +1,45 @@
+form {
+  width: 65svw;
+  max-width: 90svw;
+  font-size: 16px;
+  height: 50px;
+  display: flex;
+  border-radius: 30px;
+  background-color: rgb(225, 225, 225);
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  background-color: rgb(225, 225, 225);
+  font-size: 16px;
+  width: 65svw;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+
+form img {
+  width: 20px;
+  border-radius: 50px;
+}
+input,
+form {
+  padding-left: var(--rtc-padding-xs);
+}
+
+@media (max-width: 1350px) {
+  form {
+    width: 50svw;
+    max-width: 70svw;
+  }
+}
+@media (max-width: 950px) {
+  form {
+    width: 40svw;
+    max-width: 50svw;
+  }
+  input {
+    width: 20svw;
+  }
+}
