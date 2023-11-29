@@ -25,6 +25,10 @@ export const getImages = async () => {
         const jsonResponse = await res.json()
         const imagesList = jsonResponse.results
 
+        if (imagesList.length === 0) {
+          alert('Por favor, introduzca un término válido para mostrar imágenes')
+        }
+
         const listImages = document.createElement('ul')
         listImages.className = 'listImages'
 
